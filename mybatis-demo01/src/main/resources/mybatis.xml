@@ -17,6 +17,6 @@
     </environments>
     <!--映射配置文件的路径-->
     <mappers>
-        <!--<mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
+        <mapper resource="mapper/usersMapper.xml"></mapper>
     </mappers>
 </configuration>

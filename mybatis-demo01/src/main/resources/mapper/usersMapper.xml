@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--namespace命名空间 值为当前实体类的全称-->
 <mapper namespace="com.dome.entity.Users">
-    <select id="usersList" resultType="entity.User">
+    <select id="usersList" resultType="com.dome.entity.Users">
     select * from users
   </select>
 </mapper>
