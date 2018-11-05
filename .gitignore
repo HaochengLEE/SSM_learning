@@ -43,6 +43,10 @@ target/
 /Spring-demo1/*iml
 /Spring-demo1/target
 
+#Spring-demo2
+/Spring-demo2/*iml
+/Spring-demo2/target
+
 #system ignore
 .DS_Store
 
