@@ -33,6 +33,18 @@ target/
 
 #mybatis-demo01
 /mybatis-demo01/*iml
+/mybatis-demo01/target
+
+#mybatis-pro
+/mybatis-pro/*iml
+/mybatis-pro/target
+
+#Spring-demo1
+/Spring-demo1/*iml
+/Spring-demo1/target
 
 #system ignore
 .DS_Store
+
+
+/out
