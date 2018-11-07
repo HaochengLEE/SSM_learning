@@ -12,4 +12,8 @@ public class UserDaoImpl implements UserDao {
 		// 这里并未实现完整的数据库操作，仅为说明问题
 		System.out.println("保存用户信息到数据库");
 	}
+
+	public void delete(User user){
+		System.out.println("用户信息已删除");
+	}
 }

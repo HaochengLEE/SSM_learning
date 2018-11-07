@@ -21,4 +21,11 @@ public class UserServiceImpl implements UserService {
 		// 调用用户DAO的方法保存用户信息
 		dao.save(user);
 	}
+
+	public void deleteNewUser(User user) {
+		dao.delete(user);
+
+	}
+
+
 }

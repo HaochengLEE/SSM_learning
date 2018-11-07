@@ -22,6 +22,7 @@ public class AopTest {
 		user.setEmail("test@xxx.com");
 
 		service.addNewUser(user);
+		service.deleteNewUser(user);
 	}
 
 }

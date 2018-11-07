@@ -7,4 +7,5 @@ import entity.User;
  */
 public interface UserService {
 	public void addNewUser(User user);
+	public void deleteNewUser(User user);
 }
