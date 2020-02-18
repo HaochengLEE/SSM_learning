@@ -30,6 +30,7 @@ public class TestDemo{
             System.out.println("数据库未连接");
         }
 
+        //data compose
         List<Users> ulist=session.selectList("usersList");
 
         for(Users user:ulist){
