@@ -46,7 +46,7 @@
     </environments>
     <!--映射配置文件的路径-->
     <mappers>
-        <mapper resource=""></mapper>
+        <mapper resource="mapper/employeeMapper.xml"></mapper>
     </mappers>
 
 </configuration>
